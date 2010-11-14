@@ -1,0 +1,4 @@
+* When an object is added to the vault, detect changes to it automatically. (Might not be practical, but possibly use a delegator/mixin?)
+
+* Fix method visibility in certain places.
+* Provide a way of using an alternative method of (de)serialisation, instead of YAML.
