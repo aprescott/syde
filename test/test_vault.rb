@@ -65,4 +65,13 @@ class TC_Syde_Vault < Test::Unit::TestCase
     @vault.unlock("test_password", 0)
     assert @vault.locked?
   end
+
+  def test_contents_not_overridable
+    @vault.unlock!("test_password")
+    @vault << "foo"
+    assert @vault.contents.last == "foo"
+    @vault.contents.last.replace("bar")
+    assert @vault.contents.last == "foo"
+    assert @vault.contents.last != "bar"
+  end
 end

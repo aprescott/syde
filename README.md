@@ -64,7 +64,7 @@ To delete something in the vault, use `delete`:
     vault.contents #=> ["foo"]
     string = vault.contents.first #=> "foo"
     string.replace("bar")
-    vault.contents #=> ["bar"]
+    vault.contents #=> ["foo"]
 
 Objects in the vault are serialised and then deserialised and as such are not modifiable.
 
