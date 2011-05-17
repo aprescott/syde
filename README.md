@@ -3,6 +3,26 @@ Syde
 
 Syde is a *sy*mmetric *d*ata *e*ncryption library written in Ruby, licensed under the MIT license. It provides a saved encrypted data storage under a single password.
 
+# How do I use this thing?
+
+To install from RubyGems:
+
+    gem install syde
+
+To get the source:
+
+    git clone https://github.com/aprescott/syde.git
+
+To run the tests with the source:
+
+    rake test
+
+To contribute:
+
+* Fork it
+* Make a new feature branch: `git checkout -b some-new-thing master`
+* Pull request
+
 Basic usage
 -----------
 
@@ -74,23 +94,20 @@ If your password is forgotten it's unlikely that you'll be able to retrieve any 
 Tests
 -----
 
-`ruby test/test_syde.rb` will run the set of unit tests.
+`rake test` will run the set of unit tests.
 
 Ruby versions
 -------------
 
-The test suite has run without failures on versions 1.8.7, 1.9.1 and 1.9.2 of Ruby, on Linux and Mac OS X.
+Should work without incident on 1.8.7.
 
 TODO/issues
 -----------
+
+Fix encoding problems to get 1.9 support.
 
 The intention is to have future versions support storing data associated to keys, allowing you to use
 
     vault.add :password => "important"
 
 This can be done with the current design by setting the contents of the vault to be just a hash.
-
-Contributing
-------------
-
-Fork the project and branch off **develop** with your new feature branch.
