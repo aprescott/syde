@@ -13,7 +13,7 @@ FileUtils.mkdir(File.expand_path("~/.syde")) unless File.exist?(File.expand_path
 module Syde
 	SYDE_VERSION_MAJOR = "0"
 	SYDE_VERSION_MINOR = "0"
-	SYDE_VERSION_TINY  = "1"
+	SYDE_VERSION_TINY  = "2"
 	
 	SYDE_VERSION = [SYDE_VERSION_MAJOR, SYDE_VERSION_MINOR, SYDE_VERSION_TINY].join(".")
 	
