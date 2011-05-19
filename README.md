@@ -21,6 +21,7 @@ To contribute:
 
 * Fork it
 * Make a new feature branch: `git checkout -b some-new-thing master`
+* Hack away and add tests
 * Pull request
 
 Basic usage
