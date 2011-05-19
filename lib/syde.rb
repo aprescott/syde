@@ -1,3 +1,6 @@
+# Copyright (c) 2010 Adam Prescott
+# Licensed under the MIT license. See LICENSE.
+
 require "openssl"
 require "yaml"
 require "fileutils"
