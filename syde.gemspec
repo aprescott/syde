@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.files        = Dir["{lib/**/*,test/**/*}"] + %w[LICENSE Gemfile rakefile README.md syde.gemspec .gemtest]
   s.require_path = "lib"
   s.test_files   = Dir["test/*"]
-  s.has_rdoc     = false
   s.add_development_dependency "rake"
   s.required_ruby_version = "~> 1.8.7"
   s.requirements << "Ruby 1.8.7, does not work with 1.9 (yet) due to encodings"
