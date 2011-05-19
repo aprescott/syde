@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.homepage     = "https://github.com/aprescott/syde"
   s.summary      = "Symmetric data encryption library."
   s.description  = "Syde is a symmetric data encryption library written in Ruby, licensed under the MIT license. It provides a saved encrypted data storage under a single password."
-  s.files        = Dir["{lib/**/*,test/**/*}"] + %w[LICENSE.mit Gemfile rakefile README.md syde.gemspec .gemtest]
+  s.files        = Dir["{lib/**/*,test/**/*}"] + %w[LICENSE Gemfile rakefile README.md syde.gemspec .gemtest]
   s.require_path = "lib"
   s.test_files   = Dir["test/*"]
   s.has_rdoc     = false
