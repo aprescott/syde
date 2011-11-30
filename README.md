@@ -28,7 +28,7 @@ Basic usage
 -----------
 
     require "syde"
-    
+
     vault = Syde::Vault.create("password")
     vault #=> #<Vault (locked)>
     vault.unlock!("password")
