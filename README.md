@@ -1,3 +1,7 @@
+**NOTE:** You should not trust that this follows best cryptographic practices or that it is secure. Do not use it for sensitive data. It is a good example of some things, but secure crypto is probably not one of them.
+
+-------
+
 Syde
 ====
 
